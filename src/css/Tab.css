@@ -1,0 +1,9 @@
+.Tabs{
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+.nav > li{
+    background-color: tomato;
+    padding: 2vh;
+    color: wheat;
+}

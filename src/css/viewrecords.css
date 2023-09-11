@@ -1,0 +1,16 @@
+.viewRecordContainer{
+    padding: 2vh;
+    border: 0.3vh solid darkcyan;
+    width: 52vh;
+    /* margin:3vh 84vh; */
+    margin:3vh 22vh;
+    
+    border-radius: 3vh;
+}
+.viewRecordContainer > h3{
+    padding: 1vh;
+    font-size: 2vh;
+}
+.viewrecord{
+    color: tomato;
+}

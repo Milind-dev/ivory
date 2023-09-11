@@ -1,0 +1,15 @@
+
+.regitrationicon{
+    width: 120px;
+}
+.formcontainer{
+    width: 79vh;
+    margin: 1vh 69vh;
+    border-radius: 1vh;
+    padding: 12vh;
+    border: 1px solid tomato;
+}
+.formcontainer >  div > input{
+    width: 49vh;
+  
+}
