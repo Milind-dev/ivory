@@ -64,10 +64,12 @@ export default function Paginations({ localdatas }) {
         return (
           <>
             <div key={index} className="viewRecordContainer">
-              <h1>{el.id}</h1>
-              <h3>{el.names}</h3>
-              <h3>{el.contact}</h3>
-              <h3>{el.pincode}</h3>
+              <h3>id = {el.id}</h3>
+              <h3>names = {el.names}</h3>
+              <h3>email = {el.email}</h3>
+              <h3>contact = {el.contact}</h3>
+              <h3>city = {el.city}</h3>
+              <h3>pincode= {el.pincode}</h3>
               <button onClick={(e) => handledelete(`${el.id}`)}>
                 {" "}
                 Delete{" "}
